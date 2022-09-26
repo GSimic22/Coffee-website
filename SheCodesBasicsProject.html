@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nespresso ☕️</title>
+  <style>
+   body { background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)} 
+h1 {text-align: center;
+color: beige;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;}
+
+h2 {text-align: center;
+color: beige;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+border: 2px solid beige;
+padding: 20px;
+font-size: 20px;
+border-radius:4px; 
+margin: auto 400px auto 400px;}
+
+Img {
+  display: block;
+  margin: 0 auto;
+max-width: 1000%;
+border:20px solid grey;}
+
+p {text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+color: beige;}
+
+button 
+{display: block;
+  margin: 20px auto;
+  padding: 20px 30px;
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px 5px 5px;}
+
+button:hover {opacity: 0.5;
+cursor: pointer;}
+
+
+
+div {text-align: center;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+color: antiquewhite;}
+
+
+
+
+  </style>
+</head>
+<body>
+  <h1> Nespresso Vertuo vs. Original</h1>
+  <h2> What is the difference?</h2>
+
+</br>
+
+<img src="https://www.nespresso.com/ecom/medias/sys_master/public/14040916426782/OL-VL-icon.jpg?impolicy=small&imwidth=200" alt=" Coffee machine">
+
+<p>
+  THE CLASSIC ESPRESSO EXPERIENCE
+THE ORIGINAL EXPERIENCE
+Original was inspired by Italian roasting traditions. 
+Whether you prefer full-bodied or decaffeinated, black coffee or adding milk to make 
+cappuccinos or lattes, Original is the ideal machine for espresso lovers looking for an 
+easy way to make the perfect coffee every morning with just the touch of a button.
+</p>
+<img src="https://www.nespresso.com/ecom/medias/sys_master/public/12603802222622/M-1180-2000x2000.png?impolicy=product&imwidth=200"  alt="Nespresso Original">
+
+<p>SOURCE OF ENDLESS POSSIBILITIES
+THE VERTUO EXPERIENCE
+Do you love big cups of coffee on Monday mornings? Enjoy an espresso, cappuccino or 
+latte in the afternoon? How about a large carafe of coffee when one is not enough? 
+With its endless possibilities, Vertuo adapts to all your desires at the push of a button. 
+It's the perfect machine for coffee lovers who want Nespresso quality in a wide variety 
+of styles and sizes.</p>
+
+<img src="https://www.nespresso.com/ecom/medias/sys_master/public/15478031155230/Desktop-Standard-2000x2000.png?impolicy=product&imwidth=200" alt=" Nespresso Vertuo">
+
+</br>
+</br>
+
+<button> 
+  → Learn More & Buy your Machine ←
+</button>
+
+</br>
+</br>
+
+<div> This page was created by Gillian Simic</div>
+
+<script>
+  function buyButton() {
+    let name = prompt ("What is your name?");
+  let email = prompt ("What is your email?");
+  let country = prompt ("What continent do you live in?");
+
+  if (country === "North America") { alert ("Thank you," + name + " We will be in touch from our " + 
+  country + " website!")
+  } else
+   {alert ("Someone from our international team will be in touch!")}}
+
+
+ let button = document.querySelector("button");
+ button.addEventListener("click",buyButton);
+
+</script>
+</body>
+</html>
